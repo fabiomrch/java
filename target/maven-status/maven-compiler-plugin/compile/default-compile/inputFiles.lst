@@ -1,0 +1,14 @@
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/tax/ProductTypeTaxSubjectionCondition.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/payment/ReceiptItem.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/model/Product.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/App.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/model/type/ProductType.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/payment/PriceCalculator.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/exception/InvalidItemQuantityException.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/payment/ReceiptGenerator.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/purchasing/ShoppingBasket.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/tax/TaxSubjectionCondition.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/payment/Receipt.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/utils/PriceRounder.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/tax/Tax.java
+/home/fab/test-workspace/sales-taxes/src/main/java/com/salestaxes/tax/ImportedTaxSubjectionCondition.java

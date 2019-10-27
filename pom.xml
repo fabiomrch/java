@@ -9,13 +9,30 @@
 	<packaging>jar</packaging>
 
 	<name>sales-taxes</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/fabiomrch/sales-taxes</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
+
+	<scm>
+		<connection>scm:git:ssh://github.com/fabiomrch/sales-taxes.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/fabiomrch/sales-taxes.git</developerConnection>
+		<url>https://github.com/fabiomrch/sales-taxes</url>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>packagecloud-fabiomrch</id>
+			<url>packagecloud+https://packagecloud.io/fabiomrch/sales-taxes</url>
+		</repository>
+		<snapshotRepository>
+			<id>packagecloud-fabiomrch</id>
+			<url>packagecloud+https://packagecloud.io/fabiomrch/sales-taxes</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
@@ -32,6 +49,13 @@
 	</dependencies>
 
 	<build>
+		<extensions>
+			<extension>
+				<groupId>io.packagecloud.maven.wagon</groupId>
+				<artifactId>maven-packagecloud-wagon</artifactId>
+				<version>0.0.4</version>
+			</extension>
+		</extensions>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
