@@ -1,0 +1,14 @@
+com/salestaxes/tax/Tax.class
+com/salestaxes/purchasing/ShoppingBasket.class
+com/salestaxes/model/Product.class
+com/salestaxes/payment/ReceiptGenerator.class
+com/salestaxes/utils/PriceRounder.class
+com/salestaxes/model/type/ProductType.class
+com/salestaxes/exception/InvalidItemQuantityException.class
+com/salestaxes/payment/ReceiptItem.class
+com/salestaxes/payment/PriceCalculator.class
+com/salestaxes/tax/ProductTypeTaxSubjectionCondition.class
+com/salestaxes/payment/Receipt.class
+com/salestaxes/tax/TaxSubjectionCondition.class
+com/salestaxes/tax/ImportedTaxSubjectionCondition.class
+com/salestaxes/App.class
