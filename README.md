@@ -42,5 +42,5 @@ Sales Taxes: 6.70<br>
 Total: 74.68<br>
 
 # Solution
-I identified different tax methods according the implied condition (value of product type and imported flag). I treated them as specifications implementing a common Tax interface. 
+I identified different tax methods according the implied condition (value of product type and imported flag). I treated them as specifications implementing a common Tax interface.<br> 
 I didn't focus on product categorization using a simple enum to express product type.
